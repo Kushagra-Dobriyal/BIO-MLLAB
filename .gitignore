@@ -1,0 +1,22 @@
+# Ignore all data files
+data/
+*.parquet
+*.csv
+*.tsv
+*.h5
+*.npy
+*.npz
+*.pickle
+
+# Ignore large outputs
+outputs/
+results/
+models/
+checkpoints/
+
+# System files
+.DS_Store
+__pycache__/
+.ipynb_checkpoints/
+
+

@@ -1,0 +1,25 @@
+name: bio-mllab
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+  - numpy
+  - pandas
+  - scipy
+  - scikit-learn
+  - matplotlib
+  - seaborn
+  - jupyterlab
+  - ipykernel
+  - statsmodels
+  - pyarrow
+  - fastparquet
+  - tqdm
+  - requests
+  - openpyxl
+  - xlrd
+  - pip:
+      - GEOparse
+      - gseapy
